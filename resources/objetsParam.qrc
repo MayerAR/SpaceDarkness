@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/param">
+        <file alias="animation.xml">XmlFiles/objectsXml/animation.xml</file>
+        <file alias="bulletObjects.xml">XmlFiles/objectsXml/bulletObjects.xml</file>
+        <file alias="gameObjects.xml">XmlFiles/objectsXml/gameObjects.xml</file>
+        <file alias="mainItem.xml">XmlFiles/objectsXml/mainItem.xml</file>
+        <file alias="objectParam.xml">XmlFiles/objectsXml/objectParam.xml</file>
+        <file alias="strategy.xml">XmlFiles/objectsXml/strategy.xml</file>
+        <file alias="weaponObject.xml">XmlFiles/objectsXml/weaponObject.xml</file>
+    </qresource>
+</RCC>

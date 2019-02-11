@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<stages>
+	<stage1>
+		<resource>:/stage/1.xml</resource>	
+	</stage1>
+</stages>

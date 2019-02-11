@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainShip>
+	<type typeOfPixmap="firstPixmap">stdShip</type>
+	<pixmapPath>
+		<firstPixmap>:/image/stdShip_MAIN.png</firstPixmap>
+	</pixmapPath>
+	<typeStrategy>2</typeStrategy>
+	<typeBullet>stdBullet</typeBullet>
+</mainShip>

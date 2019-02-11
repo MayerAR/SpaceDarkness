@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetItemTab</class>
+ <widget class="QWidget" name="WidgetItemTab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_10">
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="accelerationLabel">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change acceleration of object</string>
+          </property>
+          <property name="text">
+           <string>Acceleration:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="accelerationSpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change acceleration of object</string>
+          </property>
+          <property name="maximum">
+           <number>30</number>
+          </property>
+          <property name="singleStep">
+           <number>1</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="limitVelocityLabel">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change max velocity of current object</string>
+          </property>
+          <property name="text">
+           <string>Limit Velocity:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="limitVelocitySpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change limit velocity of current object</string>
+          </property>
+          <property name="maximum">
+           <number>1500</number>
+          </property>
+          <property name="singleStep">
+           <number>100</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QLabel" name="isStaticLabel">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change the influence of other objects on the current object</string>
+          </property>
+          <property name="text">
+           <string>Is Static:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="isStaticCheckBox">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change the influence of other objects on the current object</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QLabel" name="pixmapTextLabel">
+            <property name="minimumSize">
+             <size>
+              <width>170</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Change image of object</string>
+            </property>
+            <property name="text">
+             <string>Pixmap:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="changePixmapPushButton">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Change image of object</string>
+            </property>
+            <property name="text">
+             <string>Change</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="pixmapLabel">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_10">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinimumSize</enum>
+        </property>
+        <item>
+         <widget class="QLabel" name="rotateAccelerationLabel">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change the acceleration of the angular rotation of the object</string>
+          </property>
+          <property name="text">
+           <string>Rotate Acceleration:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="rotateAccelerationSpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change the acceleration of the angular rotation of the object</string>
+          </property>
+          <property name="maximum">
+           <double>60.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.500000000000000</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="limitRotationLabel">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change max rotation of object</string>
+          </property>
+          <property name="text">
+           <string>Limit Rotation:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="limitRotationSpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change max rotation of object</string>
+          </property>
+          <property name="maximum">
+           <double>6.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QLabel" name="elasticityLabel">
+          <property name="minimumSize">
+           <size>
+            <width>170</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change the repulsion coefficient</string>
+          </property>
+          <property name="text">
+           <string>Elasticity:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="elasticitySpinBox">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>60</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="whatsThis">
+           <string>Change the repulsion coefficient</string>
+          </property>
+          <property name="maximum">
+           <double>3.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.100000000000000</double>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="healthLabel">
+            <property name="minimumSize">
+             <size>
+              <width>170</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Change health value</string>
+            </property>
+            <property name="text">
+             <string>Health:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="healthValueLabel">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Change health value</string>
+            </property>
+            <property name="text">
+             <string notr="true">0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QSlider" name="healthSlider">
+          <property name="whatsThis">
+           <string>Change health value</string>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>5000</number>
+          </property>
+          <property name="pageStep">
+           <number>100</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QLabel" name="massLabel">
+            <property name="minimumSize">
+             <size>
+              <width>170</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Change mass value</string>
+            </property>
+            <property name="text">
+             <string>Mass:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="massValueLabel">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="whatsThis">
+             <string>Change mass value</string>
+            </property>
+            <property name="text">
+             <string notr="true">0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QSlider" name="massSlider">
+          <property name="whatsThis">
+           <string>Change mass value</string>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>3000</number>
+          </property>
+          <property name="pageStep">
+           <number>100</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>accelerationSpinBox</tabstop>
+  <tabstop>limitVelocitySpinBox</tabstop>
+  <tabstop>isStaticCheckBox</tabstop>
+  <tabstop>changePixmapPushButton</tabstop>
+  <tabstop>rotateAccelerationSpinBox</tabstop>
+  <tabstop>limitRotationSpinBox</tabstop>
+  <tabstop>elasticitySpinBox</tabstop>
+  <tabstop>healthSlider</tabstop>
+  <tabstop>massSlider</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>healthSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>healthValueLabel</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>528</x>
+     <y>134</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>367</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>massSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>massValueLabel</receiver>
+   <slot>setNum(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>193</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>changePixmapPushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>121</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>24</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>isStaticCheckBox</sender>
+   <signal>clicked()</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>45</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>accelerationSpinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>219</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>massSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>477</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>412</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>healthSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>454</x>
+     <y>147</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>494</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>elasticitySpinBox</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>516</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>423</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>limitRotationSpinBox</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>62</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>309</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>rotateAccelerationSpinBox</sender>
+   <signal>valueChanged(double)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>504</x>
+     <y>33</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>limitVelocitySpinBox</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>WidgetItemTab</receiver>
+   <slot>slotChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>185</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>231</x>
+     <y>326</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slotChanged()</slot>
+ </slots>
+</ui>

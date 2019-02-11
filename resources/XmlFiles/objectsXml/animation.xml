@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation>
+<explosion>
+	<stdBullet n="1">
+		<a>
+			<frames>7</frames>
+			<fWidth>32</fWidth>
+			<fHeight>32</fHeight>
+			<width>32</width>
+			<height>32</height>	
+			<border>1</border>
+			<offset>34</offset>
+			<timeOut>50</timeOut>
+			<filePath>:/image/ExplosionStdBullet_BigSize.png</filePath>
+		</a>
+		<b>
+			<frames>7</frames>
+			<fWidth>32</fWidth>
+			<fHeight>32</fHeight>
+			<width>32</width>
+			<height>32</height>	
+			<border>1</border>
+			<offset>34</offset>
+			<timeOut>50</timeOut>
+			<filePath>:/image/ExplosionStdBullet_BigSize2.png</filePath>
+				
+		</b>
+	</stdBullet>
+</explosion>
+</animation>

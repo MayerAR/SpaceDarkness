@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+<item>
+<Rock>
+	<acceleration>0</acceleration>
+	<limitVelocity>400</limitVelocity>
+	<limitRotation>3</limitRotation>
+	<rotateAcceleration>0</rotateAcceleration>
+	<isStatic>0</isStatic>
+	<elasticity>0.75</elasticity>
+	<health>2000</health>
+	<mass>1000</mass>
+</Rock>
+<stdShip>
+	<acceleration>15</acceleration>
+	<limitVelocity>550</limitVelocity>
+	<limitRotation>2.5</limitRotation>
+	<rotateAcceleration>33</rotateAcceleration>
+	<isStatic>0</isStatic>
+	<elasticity>0.5</elasticity>
+	<health>10</health>
+	<mass>5</mass>
+</stdShip>
+</item>
+<bullet>
+	<stdBullet>
+		<acceleration>0</acceleration>
+		<limitVelocity>1000</limitVelocity>
+		<isStatic>0</isStatic>
+	</stdBullet>
+</bullet>
+<border>
+	<isStatic>1</isStatic>
+	<elasticity>0.5</elasticity>
+	<mass>2000</mass>
+</border>
+</objects>

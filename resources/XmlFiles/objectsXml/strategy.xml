@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strategy>
+	<BaseStrategy>
+		<bumbReaction>0</bumbReaction>
+	</BaseStrategy>
+
+	<BaseShipStrategy>
+		<bumbReaction>0</bumbReaction>
+	</BaseShipStrategy>
+	<FirstShipStrategy>
+		<bumbReaction>1</bumbReaction>
+		<minDist>350</minDist>
+		<maxDist>450</maxDist>
+	</FirstShipStrategy>
+</strategy>

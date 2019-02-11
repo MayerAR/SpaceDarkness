@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="bgStage_1.jpeg">image/bg.jpeg</file>
+        <file alias="Bullet.png">image/Bullet.png</file>
+        <file alias="ExplosionStdBullet_BigSize.png">image/ExplosionStdBullet_BigSize.png</file>
+        <file alias="ExplosionStdBullet_BigSize2.png">image/ExplosionStdBullet_BigSize2.png</file>
+        <file alias="stdShip_ENEMY.png">image/stdShip_ENEMY.png</file>
+        <file alias="stdShip_MAIN.png">image/stdShip_MAIN.png</file>
+    </qresource>
+</RCC>

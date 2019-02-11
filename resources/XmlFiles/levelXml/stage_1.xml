@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stage>
+<options_map>
+	<height>1080</height>
+	<width>1920</width>
+	<widthView>960</widthView>
+	<heightView>540</heightView>
+	<boardView>150</boardView>
+	<BgPath>:/image/bgStage_1.jpeg</BgPath>
+	<scale>0.5</scale>
+</options_map>
+<mainShip>
+	<x_pos>150</x_pos>
+	<y_pos>150</y_pos>
+</mainShip>s
+<waves>	
+	<numbOfWaves>3</numbOfWaves>
+	<a>
+
+		<Rock>
+			<x_pos>550</x_pos>
+			<y_pos>270</y_pos>
+			<velocity x="0" y="0"></velocity>
+			<typeStrategy>1</typeStrategy>	
+		</Rock>					
+	</a>
+	<b>	
+		
+		<Rock>
+			<x_pos>50</x_pos>
+			<y_pos>100</y_pos>
+			<velocity x="-510" y="555"></velocity>
+			<typeStrategy>1</typeStrategy>	
+		</Rock>
+		<stdShip>
+			<x_pos>200</x_pos>
+			<y_pos>100</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+		<stdShip>
+			<x_pos>100</x_pos>
+			<y_pos>200</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>300</x_pos>
+			<y_pos>100</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>100</x_pos>
+			<y_pos>300</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>400</x_pos>
+			<y_pos>100</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>100</x_pos>
+			<y_pos>400</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>500</x_pos>
+			<y_pos>100</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>100</x_pos>
+			<y_pos>500</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+<stdShip>
+			<x_pos>600</x_pos>
+			<y_pos>100</y_pos>
+			<typeStrategy>3</typeStrategy>
+		</stdShip>
+		
+	</b>
+	<c>
+		<Rock>
+			<x_pos>350</x_pos>
+			<y_pos>100</y_pos>
+			<velocity x="1200" y="15"></velocity>
+			<typeStrategy>1</typeStrategy>	
+		</Rock>
+	</c>
+</waves>
+</stage>

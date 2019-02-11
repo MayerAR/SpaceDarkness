@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<param>	
+<currentParam>standartParam</currentParam>
+<allParam>
+	<standartParam>
+		<objectParam>:/param/objectParam.xml</objectParam>
+		<bulletParam>:/param/bulletObjects.xml</bulletParam>
+		<gameObjectParam>:/param/gameObjects.xml</gameObjectParam>
+		<weaponParam>:/param/weaponObject.xml</weaponParam>
+	</standartParam>
+</allParam>
+</param>

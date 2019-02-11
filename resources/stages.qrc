@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/stage">
+        <file alias="1.xml">XmlFiles/levelXml/stage_1.xml</file>
+        <file alias="allStages.xml">XmlFiles/levelXml/allStages.xml</file>
+    </qresource>
+</RCC>

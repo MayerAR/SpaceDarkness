@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+<stdBullet id="1">
+	
+	<damageMin>250</damageMin>
+	<damageMax>450</damageMax>
+	<width>15</width>
+	<height>5</height>
+        <boundingWidth>700</boundingWidth>
+        <boundingHeight>36</boundingHeight>
+	<typeStrategy>1</typeStrategy>
+	<pixmapPath>:/image/Bullet.png</pixmapPath>
+</stdBullet>
+</objects>

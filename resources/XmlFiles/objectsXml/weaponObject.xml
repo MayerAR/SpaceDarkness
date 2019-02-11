@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects>
+<stdBullet>
+	<clip>150</clip>
+	<reloadTicks>300</reloadTicks>
+	<betweenShotsTicks>15</betweenShotsTicks>
+	<recoil>0</recoil>
+</stdBullet>
+</objects>	

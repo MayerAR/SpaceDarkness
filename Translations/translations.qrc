@@ -1,0 +1,5 @@
+﻿<RCC>
+    <qresource prefix="/lang">
+        <file alias="ru_RU.qm">spacedarkness_ru.qm</file>
+    </qresource>
+</RCC>
